@@ -1,0 +1,170 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Montserrat', sans-serif !important; */
+}
+
+:root {
+  --colorOne: #264653;
+  --colorTwo: #2A9D8F;
+  --colorThree: #E9C46A;
+  --colorFour: #F4A261;
+  --colorFive: #E76F51;
+}
+nav {
+  background-color: var(--colorOne) ;
+  padding: 12px;
+  
+}
+.navbar-toggler{
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.logoNav {
+  image-orientation: from-image;
+  width: 210px;
+ 
+}
+.Login {
+  background-color: var(--colorFour) !important; 
+  border: 1px solid var(--colorFour) !important;
+}
+
+.plane {
+  border: none;
+  width: 80px
+}
+
+.Login a {
+  text-decoration: none;
+  color: var(--colorOne);
+}
+
+footer {
+  
+  width: 10px;
+  background-color: var(--colorOne);
+}
+
+.LogoFooter {
+  width: 210px;
+}
+
+.linkedin {
+  height: 60px;
+
+}
+
+.Instagram {
+  height: 55px;
+}
+
+.Twitter {
+  height: 55px;
+}
+
+.Facebook {
+  height: 60px;
+}
+
+.title-footer {
+color: #efefef;
+}
+
+footer ul li a {
+text-decoration: none;
+color: #efefef;
+transition: all 0.3s ease;
+}
+
+footer ul li a:hover {
+color: var(--colorThree);
+}
+
+footer ul li {
+list-style: none;
+}
+
+section h1 {
+  color: var(--colorTwo);
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  margin: 30px 30px 30px 0;
+  border-radius: 0 50px 50px 0;
+  border: 2px solid var(--colorOne)
+}
+
+body {
+  background-color: #EDEDED;
+}
+
+main {
+  margin-top: 170px;
+}
+
+.description {
+  margin: 25px;
+}
+
+.img-blog {
+  width: 350px;
+  border-radius: 20px;
+}
+
+.nro-blog {
+  color: var(--colorFive);
+}
+
+#coment {
+  max-width: 400px;
+}
+
+.input-name {
+  max-width: 400px;
+  margin: 20px 0;
+  border: none;
+  border-bottom: 2px solid var(--colorTwo);
+}
+
+#input-email {
+  max-width: 400px;
+  margin: 20px 0;
+  border: none;
+  border-bottom: 2px solid var(--colorTwo);
+}
+
+.title-comment {
+  color: var(--colorOne);
+
+}
+
+.btn-comment {
+  width: 250px;
+  background-color: var(--colorOne);
+  border: 1px solid var(--colorOne)
+}
+
+.btn-comment:hover {
+  background-color: var(--colorTwo);
+  border: 1px solid var(--colorTwo);
+}
+
+
+@media (min-width: 992px) {
+  .img-blog {
+    width: 700px;
+  }
+
+  section h1 {
+    width: 1000px;
+  }
+
+  .title-comment {
+    margin-left: 100px;
+  }
+}
