@@ -150,6 +150,12 @@ main {
 }
 
 
+@media (min-width: 768px) {
+  .btn-contact {
+    width: 300px;
+  }
+}
+
 @media (min-width: 992px){
   .maps iframe {
     width: 600px;
