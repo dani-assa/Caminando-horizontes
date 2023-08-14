@@ -35,7 +35,7 @@
                 id="navbarNavAltMarkup">
               <div class="navbar-nav Ref">
                 <a class="nav-link active text-light" href="./Galeria de imagenes.html">Galería</a>
-                <a class="nav-link active text-light" href="#">Suscríbete</a>
+                <a class="nav-link active text-light" data-bs-toggle="modal" data-bs-target="#suscriptionModal" href="#">Suscríbete</a>                
                 <a class="nav-link active text-light" href="./Contacto.html">Contacto</a>
                 <a class="nav-link active text-light" href="#">Sobre Nosotros</a>
                 <button type="button" class="btn btn-warning mx-auto d-lg-none Login w-50 align-items-center"><a href="#" class="fw-bold">Login</a></button>
@@ -48,7 +48,45 @@
         </nav>
       </div>
     </section>
-
+<!-- Modal Suscripcion  -->
+    <div class="modal fade" id="suscriptionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="suscriptionModalLabel">Suscríbete</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label"></label>
+                <input type="text" class="form-control" id="recipient-name" placeholder="Nombre de usuario" required>
+              </div>
+              <div class="mb-3">
+                <label for="recipient-email" class="col-form-label"></label>
+                <input type="email" class="form-control" id="recipient-email" placeholder="Tu email" required>
+              </div>
+              <div class="mb-3">
+                <label for="recipient-password" class="col-form-label"></label>
+                <input type="password" class="form-control" id="recipient-password" placeholder="Contraseña" required>
+              </div>
+              <div class="mb-3">
+                <label for="recipient-password" class="col-form-label"></label>
+                <input type="password" class="form-control" id="recipient-password" placeholder="Repetir Contraseña" required>
+              </div>
+              <div class="mb-3">
+                <label for="tyc" class="label-tyc">Acepto los <a href="#">terminos y condiciones</a></label>
+                <input type="checkbox" name="tyc" id="tyc" required>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Registrarse</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
   </header>
   <main>
     <section>

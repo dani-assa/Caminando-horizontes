@@ -149,10 +149,12 @@ main {
     border: none;
     background: none;
     border-bottom: 2px solid var(--colorTwo);
+    color: #efefef;
   }
   
   .modal-content form input:focus {
     background: var(--colorOne);
+    color: #efefef;
   }
   
   #suscriptionModalLabel{
