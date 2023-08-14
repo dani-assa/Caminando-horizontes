@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Montserrat', sans-serif !important; */
+}
+
+:root {
+    --colorOne: #264653;
+    --colorTwo: #2A9D8F;
+    --colorThree: #E9C46A;
+    --colorFour: #F4A261;
+    --colorFive: #E76F51;
+}
+.navbar {
+    background-color: var(--colorOne) ;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.logoNav {
+    image-orientation: from-image;
+    width: 210px;
+
+}
+.Login {
+    background-color: var(--colorFour) !important; 
+    border: 1px solid var(--colorFour) !important;
+}
+
+.Login a {
+    text-decoration: none;
+    color: var(--colorOne);
+}
+
+.plane {
+    
+    border: none;
+    width: 80px
+}
+
+footer {
+    width: 10px;
+    background-color: var(--colorOne);
+}
+
+.LogoFooter {
+    width: 210px;
+}
+
+.linkedin {
+    height: 60px;
+
+}
+
+.Instagram {
+    height: 55px;
+}
+
+.Twitter {
+    height: 55px;
+}
+
+.Facebook {
+    height: 60px;
+}
+
+.title-footer {
+color: #efefef;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #efefef;
+    transition: all 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: var(--colorThree);
+}
+
+footer ul li {
+    list-style: none;
+}
+
+section h1 {
+    color: var(--colorTwo);
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    margin: 30px 30px 30px 0;
+    border-radius: 0 50px 50px 0;
+    border: 2px solid var(--colorOne)
+}
+
+body {
+    background-color: #EDEDED;
+}
+
+main {
+    margin-top: 170px;
+}
+
+#boton_COL1{
+    background-color: var(--colorOne);
+    color: #FFF;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.categories ul li a {
+    text-decoration: none;
+    color: var(--colorOne);
+    transition: all 0.3s ease;
+}
+
+.categories ul li a:hover {
+    color: var(--colorTwo);
+}
+
+.modal-content {
+    background-image: 
+    url(https://cdn.pixabay.com/photo/2013/04/19/21/32/new-york-city-105862_1280.jpg);
+    background-repeat: round;
+    /* background-size: cover; */
+    opacity: 0.9;
+  }
+  
+  .modal-content::before {
+    content: "";
+    width: 100%;
+    min-height: 68vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(5, 7, 12, .55), rgba(5, 7, 12, .55));
+    z-index: -1;
+  }
+  
+  .modal-content form input {
+    border: none;
+    background: none;
+    border-bottom: 2px solid var(--colorTwo);
+    color: #efefef;
+  }
+  
+  .modal-content form input:focus {
+    background: var(--colorOne);
+    color: #efefef;
+  }
+  
+  #suscriptionModalLabel{
+    color: #efefef;
+  }
+  
+  .modal-content ::placeholder {
+    color: #efefef;
+  }
+  
+  .modal-content ::placeholder::shadow {
+    background-color: var(--colorOne);
+  }
+  
+  .label-tyc {
+    color: #efefef;
+  }
+  
+  .modal-content form a {
+    text-decoration: none;
+    color: var(--colorFour);
+    transition: all 0.3s ease;
+  }
+  
+  .modal-content form a:hover {
+    color: var(--colorFive);
+  }
+
+.btn-register {
+    background-color: var(--colorFour);
+    color: var(--colorOne);
+    border: 1px solid var(--colorFour);
+}
+
+.btn-register:hover {
+    background-color: var(--colorThree);
+    color: var(--colorOne);
+    border: 1px solid var(--colorThree);
+}
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (min-width:200px){
+
+    #div-card .card{
+        width: 16rem !important;
+    }
+    .card img{
+        height: 300px;
+    }
+    .card a{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 5px;
+    }
+    .card{
+        padding-bottom: 15px;
+    }
+            }
+
+@media screen and (min-width:300px){
+
+                #div-card .card{
+                    width: 20rem !important;
+                }
+                        }
+
+@media screen and (min-width:400px){
+
+        #div-card .card{
+            width: 350px !important;
+        }
+                }
+
+@media screen and (min-width:500px){
+
+                    #div-card .card{
+                        width: 450px !important;
+                    }
+                            }
+@media screen and (min-width:768px){
+#div-gif{
+    width: 200px;
+}
+#div-gif img{
+    height: 250px;
+}
+#div-card .card{
+    width: 25rem !important;
+    height: 25rem !important;
+}
+.card a{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+}
+.card{
+    padding-bottom: 5px;
+}
+.card img{
+height: 30%;
+}  
+}
+@media screen and (min-width:1000px){
+        #div-gif{
+            width: 400px;
+        }
+        #div-card{
+            width: 600px !important;
+        }
+    
+        .card img{
+        height: 40%;
+        }
+        }
+
+@media screen and (min-width:1024px){
+
+    #div-card{
+        width: 500px !important;
+    }
+
+    .card img{
+    height: 35%;
+    }
+            }
+
+@media screen and (min-width:1025px){
+
+    #div-card{
+        width: 650px !important;
+    }
+
+    .card img{
+    height: 50%;
+    }
+                        }
+
+@media screen and (min-width:1450px){
+    #div-card{
+        width: 700px !important;
+    }
+    .card img{
+        height: 60%;
+        }
+} */
+
+
+
