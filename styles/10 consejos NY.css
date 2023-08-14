@@ -213,6 +213,18 @@ main {
   color: var(--colorFive);
 }
 
+.btn-register {
+  background-color: var(--colorFour);
+  color: var(--colorOne);
+  border: 1px solid var(--colorFour);
+}
+
+.btn-register:hover {
+  background-color: var(--colorThree);
+  color: var(--colorOne);
+  border: 1px solid var(--colorThree);
+}
+
 
 
 

@@ -11,11 +11,10 @@
   --colorFour: #F4A261;
   --colorFive: #E76F51;
 }
-nav {
+.navbar {
   background-color: var(--colorOne) ;
-  padding: 12px;
-  
 }
+
 .navbar-toggler{
   border: none;
 }
@@ -27,7 +26,7 @@ nav {
 .logoNav {
   image-orientation: from-image;
   width: 210px;
- 
+
 }
 .Login {
   background-color: var(--colorFour) !important; 
@@ -46,7 +45,6 @@ nav {
 }
 
 footer {
-  
   width: 10px;
   background-color: var(--colorOne);
 }
@@ -77,17 +75,17 @@ color: #efefef;
 }
 
 footer ul li a {
-text-decoration: none;
-color: #efefef;
-transition: all 0.3s ease;
+  text-decoration: none;
+  color: #efefef;
+  transition: all 0.3s ease;
 }
 
 footer ul li a:hover {
-color: var(--colorThree);
+  color: var(--colorThree);
 }
 
 footer ul li {
-list-style: none;
+  list-style: none;
 }
 
 section h1 {
@@ -107,55 +105,6 @@ body {
 main {
   margin-top: 170px;
 }
-
-.description {
-  margin: 25px;
-}
-
-.img-blog {
-  width: 350px;
-  border-radius: 20px;
-}
-
-.nro-blog {
-  color: var(--colorFive);
-}
-
-#coment {
-  max-width: 400px;
-}
-
-.input-name {
-  max-width: 400px;
-  margin: 20px 0;
-  border: none;
-  border-bottom: 2px solid var(--colorTwo);
-}
-
-#input-email {
-  max-width: 400px;
-  margin: 20px 0;
-  border: none;
-  border-bottom: 2px solid var(--colorTwo);
-}
-
-.title-comment {
-  color: var(--colorOne);
-
-}
-
-.btn-comment {
-  width: 250px;
-  background-color: var(--colorOne);
-  border: 1px solid var(--colorOne)
-}
-
-.btn-comment:hover {
-  background-color: var(--colorTwo);
-  border: 1px solid var(--colorTwo);
-}
-
-
 
 .modal-content {
   background-image: 
@@ -227,16 +176,18 @@ main {
 }
 
 
-@media (min-width: 992px) {
-  .img-blog {
-    width: 700px;
-  }
+.card-profile .img-card-profile {
+  width: 125px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+.img-card-profile img {
+  width: 200px;
+}
 
-  section h1 {
-    width: 1000px;
-  }
-
-  .title-comment {
-    margin-left: 100px;
-  }
+.header-card-profile {
+  height: 100px;
+  background-color: var(--colorFour);
 }
