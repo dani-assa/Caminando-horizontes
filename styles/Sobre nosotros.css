@@ -33,6 +33,11 @@
   border: 1px solid var(--colorFour) !important;
 }
 
+.login a {
+  text-decoration: none;
+  color: var(--colorOne);
+}
+
 .plane {
   
   border: none;

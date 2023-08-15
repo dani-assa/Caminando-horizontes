@@ -33,6 +33,11 @@
     background-color: var(--colorFour) !important; 
     border: 1px solid var(--colorFour) !important;
   }
+
+  .login a {
+    text-decoration: none;
+    color: var(--colorOne);
+  }
   
   .plane {
     
@@ -180,8 +185,11 @@ body {
 }
 
 
+
+
 @media (min-width:768px) {
   .modal-content::before {
       height: 65vh;
   }
+
 }

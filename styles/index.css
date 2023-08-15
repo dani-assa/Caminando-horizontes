@@ -19,6 +19,10 @@
     border: none;
 }
 
+.plane {
+    color: #efefef !important;
+}
+
 .navbar-toggler:focus {
     box-shadow: none !important;
 }
@@ -32,6 +36,11 @@
     background-color: var(--colorFour) !important; 
     border: 1px solid var(--colorFour) !important;
 }
+
+.login a {
+    text-decoration: none;
+    color: var(--colorOne);
+  }
 
 .plane {
     border: none;

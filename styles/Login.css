@@ -28,12 +28,12 @@
     width: 210px;
 
 }
-.Login {
+.login {
     background-color: var(--colorFour) !important; 
     border: 1px solid var(--colorFour) !important;
 }
 
-.Login a {
+.login a {
     text-decoration: none;
     color: var(--colorOne);
 }
