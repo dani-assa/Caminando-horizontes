@@ -38,11 +38,9 @@
     color: var(--colorOne);
 }
 
-.plane {
-    
-    border: none;
-    width: 80px
-}
+.btn-airplane {
+    color: var(--colorFour) !important;
+  }
 
 footer {
     width: 10px;
