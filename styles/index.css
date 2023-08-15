@@ -189,19 +189,28 @@ main {
     border: 1px solid var(--colorThree);
 }
 
-.img-carousel {
-    height: 700px;
-    object-fit: contain;
-    object-position: bottom;
+.btn-search {
+    background-color: var(--colorOne);
+    color: #efefef;
+    border: 1px solid var(--colorOne);
 }
 
-
+.btn-search:hover {
+    background-color: var(--colorTwo);
+    border: 1px solid var(--colorTwo);
+}
 
 @media (min-width:768px) {
     .modal-content::before {
         height: 65vh;
     }
+
+    .img-carousel {
+        height: 100vh;
+        object-fit: contain;
+    }
 }
+
 
 
 

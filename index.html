@@ -91,19 +91,19 @@
       
     </header>
     <main>
-      <div id="carouselPagePrincipal" class="carousel slide carousel-fade">
+      <div id="carouselPagePrincipal" class="carousel slide carousel-fade mb-5" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active img-carousel" data-bs-interval="3000">
-            <img src="./img/Pag principal/polynesia-3021072_1280.jpg" class="d-block w-100" alt="...">
+            <img src="./img/Pag principal/polynesia-3021072_1280.jpg" class="d-block w-100 img-fluid" alt="...">
           </div>
           <div class="carousel-item img-carousel" data-bs-interval="3000">
-            <img src="./img/Pag principal/dolomites-2897602_1280.jpg" class="d-block w-100" alt="...">
+            <img src="./img/Pag principal/dolomites-2897602_1280.jpg" class="d-block w-100 img-fluid" alt="...">
           </div>
           <div class="carousel-item img-carousel" data-bs-interval="3000">
-            <img src="./img/Pag principal/sunset-3314275_1280.jpg" class="d-block w-100" alt="...">
+            <img src="./img/Pag principal/sunset-3314275_1280.jpg" class="d-block w-100 img-fluid" alt="...">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPagePrincipal" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPagePrincipal" data-bs-slide="prev" data-bs-interval="3000">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
@@ -179,11 +179,15 @@
               </div>
               
           <div class="col-12 col-md-6">
-            <div class="row d-flex justify-content-center my-4">
-              <form class="d-flex col-12 col-md-6">
-                <input class="form-control me-2" type="text" placeholder="Search">
-                <a class="btn btn-primary  text-light" href="..." type="button"><i class="bi bi-search"></i></a>
-            </form>
+            <div class="search col-md-6 mx-auto">
+              <form class="d-flex justify-content-center" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success btn-search" type="submit">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-search" viewBox="0 0 15 15">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+                </button>
+              </form>
             </div>
             
           <div class="row d-flex justify-content-center mt-5 mb-md-4 categories">
