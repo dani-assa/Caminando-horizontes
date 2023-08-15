@@ -27,9 +27,9 @@
   .logoNav {
     image-orientation: from-image;
     width: 210px;
-   
   }
-  .Login {
+  
+  .login {
     background-color: var(--colorFour) !important; 
     border: 1px solid var(--colorFour) !important;
   }
@@ -46,24 +46,23 @@
     background-color: var(--colorOne);
   }
   
-  .LogoFooter {
+  .logoFooter {
     width: 210px;
   }
   
   .linkedin {
     height: 60px;
-  
   }
   
-  .Instagram {
+  .instagram {
     height: 55px;
   }
   
-  .Twitter {
+  .twitter {
     height: 55px;
   }
   
-  .Facebook {
+  .facebook {
     height: 60px;
   }
   
@@ -86,25 +85,23 @@
   }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     background-color: #EDEDED;
 }
 
-.IMGCarrusel {
+.imgCarrusel {
   width: 100%;
   
 }
- .Titulogaleria{
+ .tituloGaleria{
     color: var(--colorTwo);
   padding: 20px;
   text-align: center;
   background-color: #EDEDED;
   border: 2px solid var(--colorOne)
  }
- 
-  
 
-.SUBTIT {
+.subtit {
     color: var(--colorTwo);
   padding: 20px;
   text-align: center;
@@ -124,7 +121,7 @@ body {
 .modal-content::before {
   content: "";
   width: 100%;
-  min-height: 68vh;
+  min-height: 55vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -182,3 +179,9 @@ body {
   border: 1px solid var(--colorThree);
 }
 
+
+@media (min-width:768px) {
+  .modal-content::before {
+      height: 65vh;
+  }
+}

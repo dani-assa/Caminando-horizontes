@@ -17,7 +17,7 @@
 .modal-content::before {
   content: "";
   width: 100%;
-  min-height: 68vh;
+  min-height: 55vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -71,4 +71,11 @@
   background-color: var(--colorThree);
   color: var(--colorOne);
   border: 1px solid var(--colorThree);
+}
+
+
+@media (min-width:768px) {
+  .modal-content::before {
+      height: 65vh;
+  }
 }

@@ -26,16 +26,11 @@
 .logoNav {
   image-orientation: from-image;
   width: 210px;
-
 }
-.Login {
+
+.login {
   background-color: var(--colorFour) !important; 
   border: 1px solid var(--colorFour) !important;
-}
-
-.Login a {
-  text-decoration: none;
-  color: var(--colorOne);
 }
 
 .plane {
@@ -45,28 +40,28 @@
 }
 
 footer {
+  
   width: 10px;
   background-color: var(--colorOne);
 }
 
-.LogoFooter {
+.logoFooter {
   width: 210px;
 }
 
 .linkedin {
   height: 60px;
-
 }
 
-.Instagram {
+.instagram {
   height: 55px;
 }
 
-.Twitter {
+.twitter {
   height: 55px;
 }
 
-.Facebook {
+.facebook {
   height: 60px;
 }
 
@@ -117,7 +112,7 @@ main {
 .modal-content::before {
   content: "";
   width: 100%;
-  min-height: 68vh;
+  min-height: 55vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -190,4 +185,10 @@ main {
 .header-card-profile {
   height: 100px;
   background-color: var(--colorFour);
+}
+
+@media (min-width:768px) {
+  .modal-content::before {
+      height: 65vh;
+  }
 }
