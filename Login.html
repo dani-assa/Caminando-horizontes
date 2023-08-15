@@ -15,9 +15,9 @@
 
     <main>
 
-        <section class="container">
-            <div class="row">
-                <div class="col 12 col-md-6">
+        <section class="container-fluid mt-5" id="form-container">
+            <div class="row" id="row">
+                <div class="col-12 col-md-6 d-flex align-items-center justify-content-center" id="div-form">
                     <form>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Usuario o Correo Electrónico</label>
@@ -25,10 +25,10 @@
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" required>
+                            <input type="password" class="form-control" id="exampleInputPassword1" required maxlength="15" minlength="6">
                             <a href="" class="text-decoration-none text-secondary" data-bs-toggle="modal" data-bs-target="#password">¿Olvidaste la contraseña?</a>
                         </div>  
-                        <div class="d-grid gap-2 col-6 mx-auto">
+                        <div class="d-grid gap-2 col-8 mx-auto">
                             <button type="submit" class=" btn btn-primary mb-2">Iniciar sesión</button>
                         </div> 
                         <p class="d-flex justify-content-center">o</p>
