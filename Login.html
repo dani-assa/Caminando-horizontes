@@ -21,41 +21,16 @@
                     <form>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Usuario o Correo Electrónico</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="mb-2 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Mantener la sesión inciada</label>
-                            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">¿Olvidaste la contraseña?</button>
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Recuperar Contraseña</h1>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                    <div class="modal-body">
-                                        <form>
-                                            <div class="mb-3">
-                                                <label for="recipient-name" class="col-form-label">Correo Electrónico</label>
-                                                <input type="email" class="form-control" required id="exampleInputEmail1" placeholder="Ingrese su correo electrónico">
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="submit" class="btn btn-primary">Enviar</button>
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                            <input type="password" class="form-control" id="exampleInputPassword1" required>
+                            <a href="" class="text-decoration-none text-secondary" data-bs-toggle="modal" data-bs-target="#password">¿Olvidaste la contraseña?</a>
+                        </div>  
                         <div class="d-grid gap-2 col-6 mx-auto">
                             <button type="submit" class=" btn btn-primary mb-2">Iniciar sesión</button>
-                        </div>
+                        </div> 
                         <p class="d-flex justify-content-center">o</p>
                         <div class="d-flex justify-content-center gap-5">
                             <button type="button" class="btn btn-primary">Facebook</button>
@@ -64,11 +39,29 @@
                     </form>
                 </div>
             </div>
-        
-        
-
-
         </section>
+        
+        <div class="modal fade" id="password" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Recuperar Contraseña</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div>
+                                <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" required id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div>
+                                <button type="submit" class="bg-modal-button">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </main>
 
