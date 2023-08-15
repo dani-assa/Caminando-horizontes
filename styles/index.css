@@ -97,7 +97,7 @@ body {
 }
 
 main {
-    margin-top: 170px;
+    margin-top: 100px;
 }
 
 #boton_COL1{
@@ -188,6 +188,13 @@ main {
     color: var(--colorOne);
     border: 1px solid var(--colorThree);
 }
+
+.img-carousel {
+    height: 700px;
+    object-fit: contain;
+    object-position: bottom;
+}
+
 
 
 @media (min-width:768px) {
