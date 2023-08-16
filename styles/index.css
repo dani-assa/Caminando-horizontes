@@ -19,9 +19,9 @@
     border: none;
 }
 
-.plane {
-    color: #efefef !important;
-}
+.btn-airplane {
+    color: var(--colorFour) !important;
+  }
 
 .navbar-toggler:focus {
     box-shadow: none !important;
@@ -42,10 +42,6 @@
     color: var(--colorOne);
   }
 
-.plane {
-    border: none;
-    width: 80px
-}
 
 footer {
     
