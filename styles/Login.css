@@ -113,7 +113,7 @@ main {
 
 }
 .btn_GG{
-    width: 160px;
+    width: 200px;
     margin-top: 10px;
 
 
@@ -143,6 +143,14 @@ main {
 .categories ul li a:hover {
     color: var(--colorTwo);
 }
+
+#btn_IS{
+    background-color: var(--colorFour);
+    color: #FFF;
+}
+
+
+
 
 /*
 
