@@ -206,15 +206,15 @@ main {
 }
 
 .btn-register {
-    background-color: var(--colorFour);
-    color: var(--colorOne);
-    border: 1px solid var(--colorFour);
+    background-color: var(--colorFour) !important;
+    color: var(--colorOne) !important;
+    border: 1px solid var(--colorFour) !important;
 }
 
 .btn-register:hover {
-    background-color: var(--colorThree);
-    color: var(--colorOne);
-    border: 1px solid var(--colorThree);
+    background-color: var(--colorThree) !important;
+    color: var(--colorOne) !important;
+    border: 1px solid var(--colorThree) !important;
 }
 
 
