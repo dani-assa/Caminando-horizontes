@@ -109,9 +109,8 @@ main {
     width: 180px;
     margin-top: 10px;
     margin-right: 20px;
-
-
 }
+
 .btn_GG{
     width: 200px;
     margin-top: 10px;
@@ -155,6 +154,8 @@ main {
     background-image: 
     url(https://cdn.pixabay.com/photo/2013/04/19/21/32/new-york-city-105862_1280.jpg);
     background-repeat: round;
+    /* background-size: cover; */
+    opacity: 0.9;
 }
 
 .modal-suscription::before {
@@ -172,12 +173,10 @@ main {
     border: none;
     background: none;
     border-bottom: 2px solid var(--colorTwo);
-    color: #efefef;
 }
 
 .modal-suscription form input:focus {
     background: var(--colorOne);
-    color: #efefef;
 }
 
 #suscriptionModalLabel{
@@ -185,7 +184,7 @@ main {
 }
 
 .modal-suscription ::placeholder {
-    color: #efefef;
+    color: #efefef !important;
 }
 
 .modal-suscription ::placeholder::shadow {
@@ -218,25 +217,10 @@ main {
     border: 1px solid var(--colorThree);
 }
 
-.btn-search {
-    background-color: var(--colorOne);
-    color: #efefef;
-    border: 1px solid var(--colorOne);
-}
-
-.btn-search:hover {
-    background-color: var(--colorTwo);
-    border: 1px solid var(--colorTwo);
-}
 
 @media (min-width:768px) {
     .modal-suscription::before {
         height: 65vh;
-    }
-
-    .img-carousel {
-        height: 100vh;
-        object-fit: contain;
     }
 }
 
