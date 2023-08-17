@@ -98,8 +98,8 @@ main {
 
 .imgCarrusel {
   width: 100%;
-  
 }
+
  .tituloGaleria{
     color: var(--colorTwo);
   padding: 20px;
@@ -194,4 +194,7 @@ main {
       height: 65vh;
   }
 
+  .imgCarrusel {
+    height: 70vh;
+  }
 }
