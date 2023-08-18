@@ -119,10 +119,6 @@ main {
     margin-top: 10px;
 }
 
-.formLogin {
-    margin-bottom: 100px;
-}
-
 #boton_COL1{
     background-color: var(--colorOne);
     color: #FFF;
@@ -139,8 +135,8 @@ main {
     color: var(--colorTwo);
 }
 
-#btn_IS{
-    background-color: var(--colorFour);
+.btn_IS{
+    background-color: var(--colorFour) !important;
     color: #FFF;
 }
 
@@ -217,8 +213,5 @@ main {
         height: 65vh;
     }
 
-    .form-control {
-        width: 75% !important;
-    }
 }
 
