@@ -21,7 +21,7 @@
 
 .btn-airplane {
     color: var(--colorFour) !important;
-  }
+}
 
 .navbar-toggler:focus {
     box-shadow: none !important;
@@ -40,11 +40,9 @@
 .login a {
     text-decoration: none;
     color: var(--colorOne);
-  }
-
+}
 
 footer {
-    
     width: 10px;
     background-color: var(--colorOne);
 }
@@ -131,9 +129,9 @@ main {
     background-repeat: round;
     /* background-size: cover; */
     opacity: 0.9;
-  }
-  
-  .modal-content::before {
+}
+
+.modal-content::before {
     content: "";
     width: 100%;
     min-height: 55vh;
@@ -142,45 +140,45 @@ main {
     left: 0;
     background: linear-gradient(rgba(5, 7, 12, .55), rgba(5, 7, 12, .55));
     z-index: -1;
-  }
-  
-  .modal-content form input {
+}
+
+.modal-content form input {
     border: none;
     background: none;
     border-bottom: 2px solid var(--colorTwo);
     color: #efefef;
-  }
-  
-  .modal-content form input:focus {
+}
+
+.modal-content form input:focus {
     background: var(--colorOne);
     color: #efefef;
-  }
-  
-  #suscriptionModalLabel{
+}
+
+#suscriptionModalLabel{
     color: #efefef;
-  }
-  
-  .modal-content ::placeholder {
+}
+
+.modal-content ::placeholder {
     color: #efefef;
-  }
-  
-  .modal-content ::placeholder::shadow {
+}
+
+.modal-content ::placeholder::shadow {
     background-color: var(--colorOne);
-  }
-  
-  .label-tyc {
+}
+
+.label-tyc {
     color: #efefef;
-  }
-  
-  .modal-content form a {
+}
+
+.modal-content form a {
     text-decoration: none;
     color: var(--colorFour);
     transition: all 0.3s ease;
-  }
-  
-  .modal-content form a:hover {
+}
+
+.modal-content form a:hover {
     color: var(--colorFive);
-  }
+}
 
 .btn-register {
     background-color: var(--colorFour);
@@ -205,129 +203,20 @@ main {
     border: 1px solid var(--colorTwo);
 }
 
+.img-carousel {
+    width: 100%;
+}
+
 @media (min-width:768px) {
     .modal-content::before {
         height: 65vh;
     }
 
     .img-carousel {
-        height: 100vh;
-        object-fit: contain;
+        height: 70vh;
     }
+ 
 }
-
-
-
-
-
-
-
-
-
-/* @media screen and (min-width:200px){
-
-    #div-card .card{
-        width: 16rem !important;
-    }
-    .card img{
-        height: 300px;
-    }
-    .card a{
-        position: absolute;
-        bottom: 0;
-        margin-bottom: 5px;
-    }
-    .card{
-        padding-bottom: 15px;
-    }
-            }
-
-@media screen and (min-width:300px){
-
-                #div-card .card{
-                    width: 20rem !important;
-                }
-                        }
-
-@media screen and (min-width:400px){
-
-        #div-card .card{
-            width: 350px !important;
-        }
-                }
-
-@media screen and (min-width:500px){
-
-                    #div-card .card{
-                        width: 450px !important;
-                    }
-                            }
-@media screen and (min-width:768px){
-#div-gif{
-    width: 200px;
-}
-#div-gif img{
-    height: 250px;
-}
-#div-card .card{
-    width: 25rem !important;
-    height: 25rem !important;
-}
-.card a{
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 5px;
-}
-.card{
-    padding-bottom: 5px;
-}
-.card img{
-height: 30%;
-}  
-}
-@media screen and (min-width:1000px){
-        #div-gif{
-            width: 400px;
-        }
-        #div-card{
-            width: 600px !important;
-        }
-    
-        .card img{
-        height: 40%;
-        }
-        }
-
-@media screen and (min-width:1024px){
-
-    #div-card{
-        width: 500px !important;
-    }
-
-    .card img{
-    height: 35%;
-    }
-            }
-
-@media screen and (min-width:1025px){
-
-    #div-card{
-        width: 650px !important;
-    }
-
-    .card img{
-    height: 50%;
-    }
-                        }
-
-@media screen and (min-width:1450px){
-    #div-card{
-        width: 700px !important;
-    }
-    .card img{
-        height: 60%;
-        }
-} */
 
 
 

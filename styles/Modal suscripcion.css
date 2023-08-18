@@ -6,7 +6,7 @@
   --colorFive: #E76F51;
 }
 
-.modal-content {
+.modal-suscription {
   background-image: 
   url(https://cdn.pixabay.com/photo/2013/04/19/21/32/new-york-city-105862_1280.jpg);
   background-repeat: round;
@@ -14,7 +14,7 @@
   opacity: 0.9;
 }
 
-.modal-content::before {
+.modal-suscription::before {
   content: "";
   width: 100%;
   min-height: 55vh;
@@ -25,13 +25,13 @@
   z-index: -1;
 }
 
-.modal-content form input {
+.modal-suscription form input {
   border: none;
   background: none;
   border-bottom: 2px solid var(--colorTwo);
 }
 
-.modal-content form input:focus {
+.modal-suscription form input:focus {
   background: var(--colorOne);
 }
 
@@ -39,11 +39,11 @@
   color: #efefef;
 }
 
-.modal-content ::placeholder {
+.modal-suscription ::placeholder {
   color: #efefef;
 }
 
-.modal-content ::placeholder::shadow {
+.modal-suscription ::placeholder::shadow {
   background-color: var(--colorOne);
 }
 
@@ -51,13 +51,13 @@
   color: #efefef;
 }
 
-.modal-content form a {
+.modal-suscription form a {
   text-decoration: none;
   color: var(--colorFour);
   transition: all 0.3s ease;
 }
 
-.modal-content form a:hover {
+.modal-suscription form a:hover {
   color: var(--colorFive);
 }
 
@@ -75,7 +75,7 @@
 
 
 @media (min-width:768px) {
-  .modal-content::before {
+  .modal-suscription::before {
       height: 65vh;
   }
 }

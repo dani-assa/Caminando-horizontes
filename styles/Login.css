@@ -4,6 +4,10 @@
     /* font-family: 'Montserrat', sans-serif !important; */
 }
 
+html {
+    height: 100%;
+}
+
 :root {
     --colorOne: #264653;
     --colorTwo: #2A9D8F;
@@ -98,7 +102,7 @@ section h1 {
 }
 
 body {
-    background-color: #EDEDED;
+    background-color: #efefef;
 }
 
 main {
@@ -106,19 +110,14 @@ main {
 }
 
 .btn_FB{
-    width: 180px;
+    width: 200px;
     margin-top: 10px;
-    margin-right: 20px;
-
-
 }
+
 .btn_GG{
     width: 200px;
     margin-top: 10px;
-
-
 }
-
 
 .formLogin {
     margin-bottom: 100px;
@@ -129,10 +128,6 @@ main {
     color: #FFF;
 }
 
-.card{
-    background-color: #fff;
-    border-radius: 10px;
-}
 
 .categories ul li a {
     text-decoration: none;
@@ -149,6 +144,7 @@ main {
     color: #FFF;
 }
 
+<<<<<<< HEAD
 
 
 
@@ -156,14 +152,17 @@ main {
 /*
 
 .modal-content {
+=======
+.modal-suscription {
+>>>>>>> 52600f1d62ff11f15bc8d27b1b761fbe07c2acca
     background-image: 
     url(https://cdn.pixabay.com/photo/2013/04/19/21/32/new-york-city-105862_1280.jpg);
     background-repeat: round;
-    /* background-size: cover; 
+    /* background-size: cover; */
     opacity: 0.9;
 }
 
-.modal-content::before {
+.modal-suscription::before {
     content: "";
     width: 100%;
     min-height: 55vh;
@@ -174,27 +173,25 @@ main {
     z-index: -1;
 }
 
-.modal-content form input {
+.modal-suscription form input {
     border: none;
     background: none;
     border-bottom: 2px solid var(--colorTwo);
-    color: #efefef;
 }
 
-.modal-content form input:focus {
+.modal-suscription form input:focus {
     background: var(--colorOne);
-    color: #efefef;
 }
 
 #suscriptionModalLabel{
     color: #efefef;
 }
 
-.modal-content ::placeholder {
-    color: #efefef;
+.modal-suscription ::placeholder {
+    color: #efefef !important;
 }
 
-.modal-content ::placeholder::shadow {
+.modal-suscription ::placeholder::shadow {
     background-color: var(--colorOne);
 }
 
@@ -202,162 +199,36 @@ main {
     color: #efefef;
 }
 
-.modal-content form a {
+.modal-suscription form a {
     text-decoration: none;
     color: var(--colorFour);
     transition: all 0.3s ease;
 }
 
-.modal-content form a:hover {
+.modal-suscription form a:hover {
     color: var(--colorFive);
 }
 
 .btn-register {
-    background-color: var(--colorFour);
-    color: var(--colorOne);
-    border: 1px solid var(--colorFour);
+    background-color: var(--colorFour) !important;
+    color: var(--colorOne) !important;
+    border: 1px solid var(--colorFour) !important;
 }
 
 .btn-register:hover {
-    background-color: var(--colorThree);
-    color: var(--colorOne);
-    border: 1px solid var(--colorThree);
+    background-color: var(--colorThree) !important;
+    color: var(--colorOne) !important;
+    border: 1px solid var(--colorThree) !important;
 }
 
-.btn-search {
-    background-color: var(--colorOne);
-    color: #efefef;
-    border: 1px solid var(--colorOne);
-}
-
-.btn-search:hover {
-    background-color: var(--colorTwo);
-    border: 1px solid var(--colorTwo);
-}
 
 @media (min-width:768px) {
-    .modal-content::before {
+    .modal-suscription::before {
         height: 65vh;
     }
 
-    .img-carousel {
-        height: 100vh;
-        object-fit: contain;
+    .form-control {
+        width: 75% !important;
     }
 }
-
-
-
-
-
-
-
-
-
- @media screen and (min-width:200px){
-
-    #div-card .card{
-        width: 16rem !important;
-    }
-    .card img{
-        height: 300px;
-    }
-    .card a{
-        position: absolute;
-        bottom: 0;
-        margin-bottom: 5px;
-    }
-    .card{
-        padding-bottom: 15px;
-    }
-            }
-
-@media screen and (min-width:300px){
-
-                #div-card .card{
-                    width: 20rem !important;
-                }
-                        }
-
-@media screen and (min-width:400px){
-
-        #div-card .card{
-            width: 350px !important;
-        }
-                }
-
-@media screen and (min-width:500px){
-
-                    #div-card .card{
-                        width: 450px !important;
-                    }
-                            }
-@media screen and (min-width:768px){
-#div-gif{
-    width: 200px;
-}
-#div-gif img{
-    height: 250px;
-}
-#div-card .card{
-    width: 25rem !important;
-    height: 25rem !important;
-}
-.card a{
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 5px;
-}
-.card{
-    padding-bottom: 5px;
-}
-.card img{
-height: 30%;
-}  
-}
-@media screen and (min-width:1000px){
-        #div-gif{
-            width: 400px;
-        }
-        #div-card{
-            width: 600px !important;
-        }
-    
-        .card img{
-        height: 40%;
-        }
-        }
-
-@media screen and (min-width:1024px){
-
-    #div-card{
-        width: 500px !important;
-    }
-
-    .card img{
-    height: 35%;
-    }
-            }
-
-@media screen and (min-width:1025px){
-
-    #div-card{
-        width: 650px !important;
-    }
-
-    .card img{
-    height: 50%;
-    }
-                        }
-
-@media screen and (min-width:1450px){
-    #div-card{
-        width: 700px !important;
-    }
-    .card img{
-        height: 60%;
-        }
-} */
-
-
 
