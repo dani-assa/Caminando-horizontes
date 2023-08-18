@@ -25,6 +25,10 @@
   .navbar-toggler:focus {
     box-shadow: none !important;
   }
+
+  .btn-airplane {
+    color: var(--colorFour) !important;
+}
   
   .logoNav {
     image-orientation: from-image;
