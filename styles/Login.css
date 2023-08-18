@@ -4,6 +4,10 @@
     /* font-family: 'Montserrat', sans-serif !important; */
 }
 
+html {
+    height: 100%;
+}
+
 :root {
     --colorOne: #264653;
     --colorTwo: #2A9D8F;
@@ -98,7 +102,7 @@ section h1 {
 }
 
 body {
-    background-color: #EDEDED;
+    background-color: #efefef;
 }
 
 main {
@@ -106,9 +110,8 @@ main {
 }
 
 .btn_FB{
-    width: 180px;
+    width: 200px;
     margin-top: 10px;
-    margin-right: 20px;
 }
 
 .btn_GG{
@@ -125,10 +128,6 @@ main {
     color: #FFF;
 }
 
-.card{
-    background-color: #fff;
-    border-radius: 10px;
-}
 
 .categories ul li a {
     text-decoration: none;
@@ -144,11 +143,6 @@ main {
     background-color: var(--colorFour);
     color: #FFF;
 }
-
-
-
-
-
 
 .modal-suscription {
     background-image: 
@@ -221,6 +215,10 @@ main {
 @media (min-width:768px) {
     .modal-suscription::before {
         height: 65vh;
+    }
+
+    .form-control {
+        width: 75% !important;
     }
 }
 
