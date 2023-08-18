@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Montserrat', sans-serif !important; */
+  }
+
+:root {
+    --colorOne: #264653;
+    --colorTwo: #2A9D8F;
+    --colorThree: #E9C46A;
+    --colorFour: #F4A261;
+    --colorFive: #E76F51;
+  }
+  
+  
+  nav {
+    background-color: var(--colorOne) ;
+    padding: 12px;
+    
+  }
+  .navbar-toggler{
+    border: none;
+  }
+  
+  .navbar-toggler:focus {
+    box-shadow: none !important;
+  }
+  
+  .logoNav {
+    image-orientation: from-image;
+    width: 210px;
+    
+  }
+  .login {
+    background-color: var(--colorFour) !important; 
+    border: 1px solid var(--colorFour) !important;
+  }
+
+  .login a {
+    text-decoration: none;
+    color: var(--colorOne);
+}
+  
+  .plane {
+    border: none;
+    width: 80px
+  }
+  
+  footer {
+    
+    width: 10px;
+    background-color: var(--colorOne);
+  }
+  
+  .logoFooter {
+    width: 210px;
+  }
+  
+  .linkedin {
+    height: 60px;
+    
+  }
+  
+  .instagram {
+    height: 55px;
+  }
+  
+  .twitter {
+    height: 55px;
+  }
+  
+  .facebook {
+    height: 60px;
+  }
+  
+  .title-footer {
+    color: #efefef;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: #efefef;
+    transition: all 0.3s ease;
+  }
+  
+  footer ul li a:hover {
+    color: var(--colorThree);
+  }
+  
+  footer ul li {
+    list-style: none;
+  }
+  
+  body {
+    /* font-family: 'Montserrat', sans-serif; */
+    color: #efefef;
+  }
+
+  main {
+    margin-top: 150px;
+}
+  
+  h1 {
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .avionImg {
+    width: 70vw;
+    margin: 0 auto;
+  }
+  
