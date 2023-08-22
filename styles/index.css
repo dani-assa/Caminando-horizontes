@@ -215,8 +215,21 @@ main {
     .img-carousel {
         height: 70vh;
     }
- 
+
+    .imgTarjetas{
+        width: 50vh;
+        height: 10vb;
+    }
+    
 }
 
+@media (min-width: 1024px){
 
+    .imgTarjetas{
+        width: 50vh;
+        height: 15vb;
+    }
+
+    
+}
 

@@ -197,4 +197,10 @@ main {
   .imgCarrusel {
     height: 70vh;
   }
+
+  .img-galery {
+    width: 430px;
+    height: 230px;
+    overflow: hidden;
+  }
 }
