@@ -197,10 +197,13 @@ main {
   .imgCarrusel {
     height: 70vh;
   }
-
+}
+@media (min-width:992px) {
   .img-galery {
     width: 430px;
     height: 230px;
     overflow: hidden;
   }
+  
 }
+
