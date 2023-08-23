@@ -198,12 +198,19 @@ main {
     height: 70vh;
   }
 }
+
 @media (min-width:992px) {
+  .img-galery {
+    width: 320px;
+    height: 150px;
+    overflow: hidden;
+  }  
+}
+
+@media (min-width:1290px) {
   .img-galery {
     width: 430px;
     height: 230px;
     overflow: hidden;
-  }
-  
+  }  
 }
-
